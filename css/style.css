@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  height: 120px;
+}
+.logo-img {
+  width: 120px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.menu-bar {
+  display: flex;
+}
+ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 48px;
+  margin-right: 45px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: fangsong;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+.banner img {
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.features-of-blogs {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 1360px;
+  margin-top: 30px;
+}
+.main {
+  padding: 20px 200px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+.main .box1 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.main .box2 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.main .box3 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.main .box4 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.main .box5 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.main .box6 {
+  border: none;
+  width: 350px;
+  height: 600px;
+  background-size: 100% 300px;
+  box-shadow: 10px 10px 6px -3px black;
+}
+.box1 img {
+  height: 200px;
+  width: 340px;
+}
+.box2 img {
+  height: 200px;
+  width: 340px;
+}
+.box3 img {
+  height: 200px;
+  width: 340px;
+}
+.box4 img {
+  height: 200px;
+  width: 340px;
+}
+.box5 img {
+  height: 200px;
+  width: 340px;
+}
+.box6 img {
+  height: 200px;
+  width: 340px;
+}
+.ram {
+  font-size: 13px;
+  padding: 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+.shayam {
+  font-family: sans-serif;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.hari {
+  padding: 10px;
+  letter-spacing: 1px;
+  font-family: cursive;
+}
+.second-part button {
+  padding: 10px;
+  border: none;
+  background: darkorange;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+.second-part button a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 23px;
+}
+.features-buuton {
+  margin-top: 19px;
+  padding: 15px 42px;
+  border: none;
+  border-radius: 10px;
+  background: darkorange;
+}
+.more {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-family: initial;
+}
+.main-footer {
+  margin-top: 50px;
+}
+.main-div-footer {
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+.main-div-footer-sub {
+  display: flex;
+  justify-content: space-between;
+}
+.h222 {
+  justify-content: space-between;
+  color: darkorange;
+  font-family: revert;
+  font-size: 30px;
+  margin-top: 30px;
+  display: flex;
+}
+.p4 {
+  color: white;
+  font-size: 21px;
+  padding-top: 10px;
+  font-family: revert;
+}
+.rani {
+  display: flex;
+  margin-top: 20px;
+}
+.p5555 {
+  color: white;
+  font-size: 20px;
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
+.raja1 {
+  margin-left: 150px;
+}
+.b88888 {
+  margin-left: 0px;
+  font-size: 18px;
+  margin-top: 14px;
+}
+.b5685 {
+  color: white;
+  letter-spacing: 1px;
+}
+.g55555 {
+  margin-top: 22px;
+  font-size: 20px;
+}
+.s55555 {
+  color: white;
+}
+.raja12 {
+  margin-left: 360px;
+}
+.main-about {
+  width: 100%;
+  height: 600px;
+  padding: 40px 200px;
+}
+.heading-about {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.details-of-about {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.heading-of-bloglist {
+  padding: 30px 200px;
+}
+.heading-of-bloglist h4 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.hero {
+  background: white;
+  width: 100%;
+  height: 600px;
+}
+.hero-main {
+  width: 40%;
+  height: 500px;
+  background: white;
+  margin: 10px 450px;
+  box-shadow: 0px -1px 14px -2px black;
+  border-radius: 13px;
+}
+.post-section {
+  padding: 30px;
+}
+.login-heading {
+  padding: 10px 250px;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+}
+.form-controle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 1.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.hero-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background: darkorange;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hero-button-content {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.registration-section {
+  background: white;
+  width: 100%;
+  height: 700px;
+}
+.registration-container {
+  width: 40%;
+  height: 600px;
+  background: white;
+  margin: 10px 450px;
+  box-shadow: 0px -1px 14px -2px black;
+  border-radius: 13px;
+}
+.registration-heading {
+  padding: 10px 160px;
+  font-family: sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+}
+.form-section-main {
+  margin: 15px;
+}
+.container-of-contact {
+  background: white;
+  width: 100%;
+  height: 600px;
+}
+.container-area {
+  width: 50%;
+  height: 500px;
+  background: white;
+  margin: 60px 400px;
+}
+.main-details {
+  width: 80%;
+  height: 800px;
+  background: white;
+  margin: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-deatails {
+  width: 70%;
+  height: 800px;
+}
+.other-details {
+  width: 30%;
+  height: 800px;
+}
+.blog-heading-1st {
+  margin: 10px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 50px;
+}
+.date {
+  margin: 12px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.img-of-details {
+  margin: 10px;
+  background-size: cover;
+}
+.content-of-deatails {
+  margin: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.others-deatais-main-section {
+  background: white;
+  width: 100%;
+  height: 800px;
+}
+.REcentblog {
+  padding: 10px 70px;
+  font-size: 25px;
+  font-family: monospace;
+  background: black;
+  color: white;
+  letter-spacing: 2px;
+}
+.Blog-list-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.main-section-of-the-blog-deatails {
+  text-decoration: none;
+}
+.Blog-list-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+.blog-list-img {
+  background-size: cover;
+  width: 92px;
+  height: 75px;
+}
+.list-content {
+  font-size: 20px;
+  color: #00000078;
+}
+.date-list {
+  font-size: 20px;
+  padding: 5px;
+  color: #00000091;
+}
+.list-of-categories {
+  text-align: center;
+  padding: 20px;
+}
+.comment-sction {
+  width: 100px;
+  height: 100px;
+}
+.comment-like-dislike-section {
+  padding: 10px 160px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.comment-like-dislike-section button {
+  font-size: 35px;
+  padding: 5px 20px;
+  background: darkorange;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.comment-form-section{
+    width: 100%;
+  height: 500px;
+}
+.section-is-start{
+  background: #00000008;
+    width: 75%;
+    height: 450px;
+    margin: 10px 191px;
+    border: solid 1.5px;
+    border-radius: 25px;
+    border-color: #cec7c7b5;
+}
+.leave{
+  margin: 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.end-button{
+  font-size: 25px;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 57px 10px;
+    background: darkorange;
+    border: none;
+    color: aliceblue;
+}
